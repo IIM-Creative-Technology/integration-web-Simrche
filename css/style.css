@@ -1,0 +1,786 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#haut {
+    background-image:linear-gradient(to right,#2f2359, #4c3892);
+}
+
+#headerHaut img {
+    margin-right: 450px;
+}
+
+#headerHaut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#haut nav a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 1.125em;
+    font-family: poppins;
+    color: white;
+}
+
+#haut nav a:hover {
+    border-bottom: white solid 1px;
+    padding-bottom: 10px;
+    transition: 0.1s;
+}
+
+#haut nav a:first-child {
+    border-bottom: white solid 1px;
+    padding-bottom: 10px;
+}
+
+#connexion {
+    background-color: #bf3676;
+    padding: 8px 45px;
+    border-radius: 22px;
+    color: white;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.125em;
+    margin-left: 50px;
+}
+
+#connexion:hover {
+    background-color: #a02d62;
+    transition: 0.3s;
+}
+
+#violetText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 177px;
+    margin-bottom: 50px;
+}
+
+#violetText h2{
+    color: white;
+    font-family: poppins;
+    font-size: 46px;
+    width: 100%;
+}
+
+#violetText p {
+    color: white;
+    font-size: 1em;
+    width: 75%;
+    font-family: poppins;
+    margin-top: 50px;
+}
+
+#violetText a {
+    background-color: #bf3676;
+    width: 50%;
+    text-align: center;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    color: white;
+    font-family: poppins;
+    text-decoration: none;
+    padding: 0 20px;
+    margin-top: 34px;
+}
+
+#violetText a:hover {
+    background-color: #a02d62;
+    transition: 0.3s;
+}
+
+#textImgHaut {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+#arrow div {
+    padding: 10px 18px;
+    border-radius: 50%;
+}
+
+#arrow div:hover {
+    background-color: #a02d62;
+    transition: 0.5s;
+}
+
+#informations {
+    background-image: url("../img/background.png");
+}
+
+#infoHaut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infoHaut h2 {
+    font-size: 2.5em;
+    font-family: poppins;
+    font-weight: bold;
+    color: #bf3676;
+    margin-top: 62px;
+}
+
+#hr {
+    width: 248px;
+    height: 2px;
+    background-color: #bf3676;
+    border: none;
+    margin-top: 29px;
+}
+
+#infoHaut p {
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 59px;
+    color: black;
+    font-size: 1.125em;
+    width: 50%;
+    text-align: center;
+}
+
+#infoBas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.infoCase {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.infoCase img {
+    padding-right: 31px;
+}
+
+.infoCase h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.infoCase p {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#buttonInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    padding-bottom: 100px;
+}
+
+#defierAmis {
+    color: white;
+    font-family: Poppins;
+    background-color: #bf3676;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 22px;
+    padding: 12px 50px;
+    text-decoration: none;
+}
+
+#defierAmis:hover {
+    background-color: #a02d62;
+    transition: 0.3s;
+}
+
+#textEnvers {
+    width: 385px;
+}
+
+#textEnvers p {
+    transform: rotate(90deg);
+    font-family: poppins;
+    font-size: 9px;
+}
+
+#sliderCase {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+#sliderTitre {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#sliderTitre h2 {
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: bold;
+    color: #bf3676;
+}
+
+#sliderTitre hr {
+    background-color: #bf3676;
+    width: 250px;
+    margin-top: 25px;
+    border: none;
+    height: 2px;
+}
+
+.case {
+    display: flex;
+    width: 480px;
+    padding: 10px 20px;
+    box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.imgLogoSondage {
+    display: flex;
+    align-items: center;
+}
+
+.caseDroite {
+    margin-left: 25px;
+}
+
+.caseDroite h3 {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#sliderCase {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.caseDroite p {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.caseDroiteViolet {
+    display: flex;
+}
+
+.caseDroiteViolet p {
+    color: white;
+    background-color: #d3c4f2;
+    width: 100%;
+    margin: 5px 10px 0 0;
+    text-align: center;
+    font-family: poppins;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.imgGroupe {
+    display: flex;
+    align-items: center;
+}
+
+.imgGroupe div {
+    display: flex;
+    align-items: center;
+}
+
+.imgGroupe p {
+    font-family: poppins;
+    color: #747474;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#parisPerso {
+    background-image:linear-gradient(#4c3892, #2f2359);
+    position: relative;
+    padding-bottom: 75px;
+}
+
+#hr2 {
+    width: 248px;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 29px;
+}
+
+#sectionPerso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sectionPerso h2 {
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+    margin-top: 73px;
+}
+
+#parisPerso img {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    z-index: 0;
+}
+
+#persoInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+#milieuGauche {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#milieuGauche div{
+    display: flex;
+}
+
+#buttonNouveau {
+    background-color: white;
+    margin-left: 50px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2f2359;
+}
+
+#milieuGauche h4 {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+#milieuGauche p {
+    width: 50%;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: 34px;
+}
+
+#milieuGauche span {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.numeroInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.numeroInfo p {
+    color: white;
+    width: 75%;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.rond {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-family: poppins;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#milieuDroit {
+    z-index: 3;
+    margin-top: 35px;
+}
+
+#parisPersoButton {
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    margin-top: 145px;
+    padding-bottom: 75px;
+}
+
+#parisPersoButton a {
+    z-index: 3;
+    font-family: poppins;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background-color: #bf3676;
+    padding: 17px 31px;
+    border-radius: 27px;
+}
+
+#parisPersoButton a:hover {
+    background-color: #a02d62;
+    transition: 0.3s;
+}
+
+#citation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#citaDroite img {
+    display: block;
+}
+
+#citaGauche {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#citaGauche img {
+    position: absolute;
+    top: -42px;
+    left: 60%;
+}
+
+#texteCitation {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 500;
+    width: 50%;
+}
+
+#texteCitation2 {
+    width: 50%;
+    color: #bbbbbb;
+    margin-top: 25px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#footerArticle {
+    background-image: url(../img/background-footer.png);
+}
+
+#titreFooter {
+    font-family: poppins;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 65px;
+    margin-left: 110px;
+    letter-spacing: 3px;
+}
+
+#groupeButton {
+    display: flex;
+}
+
+#colButton, #colButton2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 110px;
+}
+
+#colButton a, #colButton2 a {
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#colButton a:hover, #colButton2 a:hover {
+    color: beige;
+}
+
+#footerMilieu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reseauSociaux {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 150px;
+}
+
+#reseauSociaux a {
+    padding: 0 5px;
+}
+
+#hrFooter {
+    margin: auto;
+    height: 1px;
+    border: none;
+    background-color: white;
+    width: 88%;
+    margin-top: 35px;
+}
+
+#textFin {
+    font-family: poppins;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+#textFin p {
+    width: 40%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #sliderCase {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+
+    .infoCase {
+        width: 50%;
+    }
+
+    #violetText a {
+        margin: 25px auto 0 auto;
+    }
+
+    #violetText p {
+        text-align: center;
+        margin: 25px auto 0 auto;
+    }
+
+    #violetText h2 {
+        text-align: center;
+    }
+
+    #citation {
+        flex-direction: column;
+    }
+
+    #persoInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #textImgHaut {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #violetText {
+        margin-left: 0;
+    }
+
+    #texteCitation {
+        padding-right: 0;
+        width: 80%;
+    }
+
+    #texteCitation2 {
+        padding-right: 0;
+        width: 80%;
+    }
+
+    #textImgHaut img {
+        width: 80%;
+    }
+
+    #parisPerso img {
+        width: 50%;
+    }
+
+    #milieuGauche {
+        margin-right: 0;
+    }
+
+    #persoInfo {
+        margin-top: 50px;
+    }
+
+    .numeroInfo p {
+        width: 100%;
+    }
+
+    #parisPersoButton {
+        margin-top: 50px;
+    }
+
+    #citaGauche {
+        margin-top: 75px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #citaDroite {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #citaDroite img {
+        width: 80%;
+        margin: auto;
+    }
+
+    #headerHaut {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    #connexion {
+        margin: 0;
+    }
+
+    #headerHaut img{
+        margin: auto;
+    }
+
+    #headerHaut div {
+        display: flex;
+        align-items: center;
+    }
+
+    #infoHaut p {
+        width: 80%;
+    }
+
+    #titreFooter{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #footerMilieu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reseauSociaux {
+        margin-right: 0;
+        margin-top: 25px;
+    }
+
+    #textFin p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #sliderTitre {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #sliderTitre hr {
+        margin: 60px auto 0 auto;
+    }
+
+    #sliderCase {
+        margin-left: 0;
+    }
+
+    .case {
+        width: 80%;
+    }
+
+    #parisPersoButton a {
+        width: 70%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #infoHaut h2 {
+        text-align: center;
+    }
+
+    #sectionPerso h2 {
+        text-align: center;
+    }
+
+    #violetText h2 {
+        text-align: center;
+    }
+
+    .infoCase {
+        width: 80%;
+    }
+
+    #milieuDroit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .numeroInfo {
+        width: 80%;
+    }
+
+    #groupeButton {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #colButton, #colButton2 {
+        margin-left: 0;
+    }
+
+    #milieuGauche div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
